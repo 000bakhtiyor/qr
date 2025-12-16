@@ -22,7 +22,7 @@ jobs:
 
       - name: Build exe
         run: |
-          pyinstaller --onefile --windowed qr_pro_generator.py
+          pyinstaller --onefile --windowed qr.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
